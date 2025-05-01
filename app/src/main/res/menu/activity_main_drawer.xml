@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@drawable/ic_sensors"
+            android:title="Sensors"/>
+        <item
+            android:id="@+id/nav_thermometer"
+            android:icon="@drawable/ic_thermometer"
+            android:title="Thermometer" />
+        <item
+            android:id="@+id/nav_humd"
+            android:icon="@drawable/humdity"
+            android:title="Humidity" />
+        <item
+            android:id="@+id/nav_proximity"
+            android:icon="@drawable/proximity"
+            android:title="Proximity" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/compass"
+            android:title="compass"
+            />
+        <item
+            android:id="@+id/nav_acceleroMeter"
+            android:icon="@drawable/accelerometer"
+            android:title="accelerometer"
+            />
+    </group>
+</menu>
